@@ -1,0 +1,102 @@
+:root {
+  --mainColor: #d6dadd;
+  --secondarycolor: #ffffff;
+  --ascentcolor: #1c1c1c;
+}
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Playfair Display", serif;
+}
+.container {
+  width: 100%;
+}
+/* Navbar */
+.nav-link.active {
+  color: var(--ascentcolor) !important;
+  font-weight: 900;
+}
+.nav-link {
+  color: #1c1c1c !important;
+}
+.navbar-light {
+  background-color: var(--secondarycolor) !important;
+  z-index: 10;
+  transition: 1s;
+}
+/* End Navbar */
+
+/* hero */
+
+#hero {
+  padding-top: 1rem;
+}
+.cv {
+  color: #1c1c1c;
+  cursor: pointer;
+}
+
+.media-icon svg {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+.salam {
+  padding-top: 1rem;
+}
+/* End hero */
+/* About */
+#about {
+  background-color: var(--secondarycolor);
+  padding-bottom: 5rem;
+}
+.deskripsi {
+  padding-top: 1rem;
+}
+.table1 {
+  margin-left: 3em;
+  font-size: 1em;
+}
+.table2 {
+  margin-left: 3em;
+  font-size: 1em;
+}
+/* End About */
+/* Portofolio */
+#portofolio {
+  background-color: var(--mainColor);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+.box2 {
+  padding-left: 2.5rem;
+}
+/* End Portolio */
+/* skill */
+#skill {
+  background-color: var(--secondarycolor);
+  padding-bottom: 2rem;
+  padding-right: 0rem;
+  max-width: 100%;
+}
+#skill img {
+  width: 8%;
+  margin: 10px;
+  justify-content: center;
+}
+/* End skill */
+/* Contact */
+#contact {
+  background-color: var(--mainColor);
+  padding-bottom: 3rem;
+}
+.contact {
+  padding-bottom: 1rem;
+}
+.media-icon2 svg {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+/* End Contact */

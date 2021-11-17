@@ -1,0 +1,30 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 768px) {
+  #about.deskripsi {
+    text-align: justify !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  #hero.h1 {
+    font-size: 0.3rem;
+  }
+  #hero.h2 {
+    font-size: 0.2rem;
+  }
+  #hero.h5 {
+    font-size: 0.1rem;
+  }
+  #about.deskripsi {
+    text-align: justify !important;
+  }
+  #about.table2 {
+    font-size: 0.8em;
+  }
+  #Skill.logo {
+    border-image-width: 50px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
